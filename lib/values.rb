@@ -9,5 +9,5 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries.collect{|grocery_type_hashes, grocery_array| grocery_array}
+  groceries.collect{|grocery_type_hashes, grocery_array| grocery_type_hashes}
 end
